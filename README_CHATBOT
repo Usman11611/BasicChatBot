@@ -1,0 +1,53 @@
+Chatbot Response System                                                                 06/21/2024
+
+Description:
+This repository contains the source code for a Chatbot Response System developed by Usman Haider as part of a co-op placement in the Engineering Outreach Co-op Program. The chatbot is designed to interact with users by analyzing their input and generating contextually appropriate responses. It utilizes keyword matching and probability calculations to determine the best response from a predefined set of replies.
+
+
+Features:
+Keyword Matching: Identifies and matches user input with predefined keywords.
+Response Probability Calculation: Calculates match probability to determine the most appropriate response.
+Predefined Responses: Offers a set of predefined responses for common queries like greetings, farewells, and specific topics (e.g., food, advice).
+Unknown Response Handling: Provides a random selection of responses when input doesn’t match known keywords.
+
+
+Installation:
+Clone the Repository:
+bash
+Copy code
+git clone <https://github.com/Usman11611/BasicChatbot>
+Navigate to the Project Directory:
+bash
+Copy code
+cd chatbot-response-system
+Set Up Python Environment:
+Ensure Python is installed on your local machine.
+Install any required dependencies (if applicable).
+
+Setup:
+Install Required Packages:
+Standard modules like re and random should be available by default in Python.
+If additional modules like textgenerator are used, install them with:
+bash
+Copy code
+pip install <name-of-module>
+Run the Application:
+Start the chatbot by running the main script:
+bash
+Copy code
+python chatbot.py
+
+Usage:
+Generating a Response:
+Type a message when prompted by the chatbot, and it will generate a response based on keyword matching and probability calculations.
+Predefined Replies:
+The chatbot provides predefined replies for specific inputs, such as:
+Greetings: "Hi there!", "Hello!"
+Farewells: "Goodbye!", "Take care!"
+Food-related queries: "As a robot, I don't have to eat, but thanks for asking!"
+Advice requests: "I'd suggest searching the web for exactly what you mentioned!"
+Handling Unknown Inputs:
+If the chatbot doesn't recognize the input, it will provide a random response from a set of options like "Can you rephrase that?" or "What do you mean by that?"
+
+Creator
+Usman Haider - Developer and Designer
